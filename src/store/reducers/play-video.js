@@ -1,0 +1,15 @@
+const INITIAL_STATE = {
+  video: {},
+};
+
+const playVideo = (state = INITIAL_STATE, action) => {
+  if (action.type === "@PLAY_VIDEO") {
+    return {
+      video: action.video,
+    };
+  } else {
+    return state;
+  }
+};
+
+export default playVideo;

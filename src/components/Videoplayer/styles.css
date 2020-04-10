@@ -1,0 +1,33 @@
+.video-player {
+  width: 70%;
+  height: 450px;
+  min-height: 450px;
+  max-height: 450px;
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+}
+
+.advertisement {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.embed-video {
+  min-width: 100%;
+  padding: 10px;
+}
+
+.description {
+  height: '100%';
+  padding: 10px;
+  background-color: rgb(29, 29, 29);
+  color: #fff;
+}
+
+.description p:nth-child(1) {
+  font-size: 18px;
+}
+
+.description p:nth-child(2) {
+  font-size: 12px;
+}

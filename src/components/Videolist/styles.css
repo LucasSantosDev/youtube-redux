@@ -1,0 +1,23 @@
+.video-list {
+  width: 30%;
+  height: 450px;
+  min-height: 450px;
+  max-height: 450px;
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.item-list {
+  cursor: pointer;
+  width: 100%;
+  background: rgb(32, 32, 32);
+
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.title-video {
+  color: #fff;
+}
