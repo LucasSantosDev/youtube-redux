@@ -1,3 +1,3 @@
-const API_KEY = "API_DA_GOOGLE";
+const API_KEY = "KEY_DA_API_GOOGLE";
 
 export default API_KEY;
